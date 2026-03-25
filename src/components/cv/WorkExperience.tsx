@@ -1,47 +1,54 @@
 import React from 'react';
 const experiences = [
 {
-  period: 'From October 2018 until now',
+  period: 'Mar 2025 – Present · Remote',
+  title: 'Frontend Architect / Senior Frontend Developer',
+  company: 'Meplato GmbH, Berlin',
+  description:
+  'B2B eProcurement platform\nShaping and improving frontend architecture within a microservice-based platform. Built and maintained a shared UI library with reusable components and design patterns. Implemented web interfaces for platform modules and integrated them with backend services via APIs.\nReact.js, TypeScript, Microservices, REST, CI/CD, Scrum'
+},
+{
+  period: 'From October 2018 to February 2025',
   title: 'Principal Frontend Engineer',
   subtitle: 'Full Stack Engineer · 2018 to 2019',
   company: 'workstreams.ai GmbH, Berlin',
   description:
-  'task management\nReact.js, Redux, Scylla, Node.js, REST, AWS, Webpack, CI / CD, Selenium, AI, Scrum'
+  'Task management\nReact.js, Redux, Node.js, AI, REST, AWS, Webpack, CI / CD, Selenium, AI, Scrum'
 },
 {
   period: 'From July 2017 to August 2018',
-  title: 'Frontend Engineer',
+  title: 'Senior Frontend Developer',
   company: 'Paxlife Innovations GmbH, Potsdam',
   description:
-  'in-flight entertainment,\ncloud sales platform and exhibition\nReact.js, Redux, Flow, SASS, GIT, Jira,\nNode.js, REST, Adobe Creative Suite'
+  'In-flight entertainment, cloud sales platform and exhibition\nReact.js, Redux, Flow, SASS, GIT, Jira,\nNode.js, REST, Adobe Creative Suite'
 },
 {
   period: 'From January 2017 to July 2017',
-  title: 'Frontend Engineer',
-  company: 'Ecomstills GmbH, Berlin',
+  title: 'Full Stack Developer',
+  company: 'Ecomsilio GmbH, Berlin',
   description:
-  'eCommerce\nJavaScript, jQuery, SASS, PHP, MySQL,\nTWIG, Node.js, REST, Adobe Creative Suite'
+  'E-commerce\nJavaScript, jQuery, SASS, PHP, MySQL,\nTWIG, Node.js, REST, Adobe Creative Suite'
 },
 {
-  period: 'From May 2016 to July 2011',
+  period: 'From May 2016 to July 2016',
   title: 'Frontend Engineer',
   company: 'Hocaboo GmbH, Berlin',
   description:
-  'recruiting platform for the hotellery\nAngular.js, SASS, Gulp,\nNode.js, Adobe Creative Suite'
+  'Recruiting platform for the hospitality industry\nAngular.js, SASS, Gulp,\nNode.js, Adobe Creative Suite'
 },
 {
   period: 'From April 2014 to July 2014',
   title: 'Frontend Engineer',
   company: 'Fraunhofer-Institut für\nNachrichtentechnik, Berlin',
   description:
-  'touchless interaction research\nJavaScript, CSS, 3D.js, Kinect, HTML,\nWebsockets, Adobe Creative Suite'
+  'Touchless interaction research\nJavaScript, CSS, 3D.js, Kinect, HTML,\nWebsockets, Adobe Creative Suite'
 },
 {
   period: 'From 2009 to 2020',
   title: 'Freelancer',
   company: 'Landesvermessung und\nGeobasisinformation Brandenburg,\nPotsdam',
   description:
-  'geoinformation systems, product integration\nJavaScript, CSS, HTML,\nGIS, Flash, Adobe Creative Suite'
+  'Geoinformation systems and product integration\nJavaScript, CSS, HTML,\nGIS, Flash, Adobe Creative Suite'
 }];
 
 export function WorkExperience() {

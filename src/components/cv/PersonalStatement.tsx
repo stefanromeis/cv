@@ -7,23 +7,37 @@ export function PersonalStatement() {
       </h2>
       <div className="space-y-3 text-sm text-gray-700 leading-relaxed">
         <p>
-          I am a 37-year-old Frontend Engineer based in Potsdam, with a deep
-          passion for Web Development, Design, Animation, Layout, and Usability.
-          I have a particular expertise in React.js and a strong dedication to
-          efficiency and precision.
+          I am a 38-year-old Frontend Engineer based in Potsdam, with a deep passion for Design,
+          Architecture, Web Development, AI Engineering, Animation, Layout, and Usability. I have a particular expertise in
+          React.js and a strong dedication to efficiency and precision.
         </p>
         <p>
-          At workstreams.ai, where I currently serve as a Principal Frontend
-          Engineer, my role revolves around guiding the development process and
-          crafting of engaging and intuitive user interfaces using my mastery of
-          JavaScript, CSS, and React.js. With a steadfast commitment to both
-          form and function, my designs seamlessly blend aesthetics with
-          user-centric functionality.
+          With over 13 years of professional experience, including nearly 2 years in design and
+          10 years specializing in web development, my primary focus has always been on frontend
+          technologies.
         </p>
         <p>
-          Living over 13 years of professional experience, including nearly 2
-          years in design and 10 years specializing in web development, with a
-          primary focus on frontend technologies.
+          At Meplato GmbH, I worked on the development and evolution of a B2B eProcurement platform,
+          helping organizations digitize and streamline complex procurement processes. My primary focus
+          was on shaping and enhancing the frontend architecture within a microservice-based platform,
+          developing web interfaces for multiple modules, and integrating them via APIs. A major part
+          of this work involved building and maintaining a shared UI library with reusable components
+          and design patterns, ensuring a consistent, scalable, and intuitive user experience across
+          applications.
+        </p>
+        <p>
+          Previously, as a Senior Frontend Engineer at workstreams.ai, I guided parts of the frontend
+          development process and focused on crafting engaging and user-friendly interfaces using
+          JavaScript, CSS, and React. With a steadfast commitment to both form and function, my designs
+          seamlessly blend aesthetics with user-centric functionality.
+        </p>
+        <p>
+          Over the past years, I have also gained significant experience in leveraging AI agents
+          efficiently to optimize development workflows, automate repetitive tasks, and support
+          data-driven decision-making in frontend projects. Across all these roles, my work combines
+          technical precision, architecture-focused thinking, and design-driven principles to deliver
+          robust, maintainable, and high-performance web applications with user experience at the
+          forefront.
         </p>
       </div>
     </section>);

@@ -1,21 +1,25 @@
 import React from 'react';
-import { CodeIcon, PenToolIcon, MonitorIcon, AtomIcon } from 'lucide-react';
+import { CodeIcon, PenToolIcon, MonitorIcon, AtomIcon, SparklesIcon } from 'lucide-react';
 const specialties = [
 {
   icon: CodeIcon,
   label: 'Code'
 },
 {
-  icon: PenToolIcon,
-  label: 'Design'
-},
-{
   icon: MonitorIcon,
   label: 'Web\nDevelopment'
 },
 {
+  icon: SparklesIcon,
+  label: 'AI\nEngineering'
+},
+{
   icon: AtomIcon,
   label: 'React.js'
+},
+{
+  icon: PenToolIcon,
+  label: 'Design'
 }];
 
 export function Specialties() {
