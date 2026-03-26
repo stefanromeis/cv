@@ -7,16 +7,6 @@ type Skill = {
 
 const skillGroups: { title: string; skills: Skill[] }[] = [
   {
-    title: 'Architecture & Systems',
-    skills: [
-      { name: 'System Architecture', level: 4 },
-      { name: 'Microservices', level: 4 },
-      { name: 'Distributed Systems', level: 3 },
-      { name: 'Web Authentication / OAuth', level: 5 },
-      { name: 'SSR / Edge Rendering', level: 5 },
-    ],
-  },
-  {
     title: 'Full-Stack Development',
     skills: [
       { name: 'JavaScript (ES6+)', level: 5 },
@@ -27,6 +17,16 @@ const skillGroups: { title: string; skills: Skill[] }[] = [
       { name: 'REST APIs', level: 5 },
       { name: 'WebSockets', level: 4 },
       { name: 'SQL / NoSQL', level: 4 },
+    ],
+  },
+  {
+    title: 'Architecture & Systems',
+    skills: [
+      { name: 'System Architecture', level: 4 },
+      { name: 'Microservices', level: 4 },
+      { name: 'Distributed Systems', level: 3 },
+      { name: 'Web Authentication / OAuth', level: 5 },
+      { name: 'SSR / Edge Rendering', level: 5 },
     ],
   },
   {

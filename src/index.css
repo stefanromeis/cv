@@ -6,3 +6,25 @@
 @import 'tailwindcss/utilities';
 
 /* END TAILWIND IMPORTS — ALL OTHER CSS MUST GO BELOW THIS LINE */
+
+html {
+  font-size: 9px;
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 15mm 20mm;
+  }
+
+  body {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}

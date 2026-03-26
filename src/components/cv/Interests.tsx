@@ -49,7 +49,7 @@ export function Interests() {
       <h2 className="text-sm font-bold tracking-wider text-gray-900 mb-6">
         INTERESTS
       </h2>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="flex gap-6">
         {interests.map((interest, index) => {
           const Icon = interest.icon;
           return (
