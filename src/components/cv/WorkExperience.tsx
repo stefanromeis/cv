@@ -13,7 +13,7 @@ const experiences = [
   subtitle: 'Full Stack Engineer · 2018 to 2019',
   company: 'workstreams.ai GmbH, Berlin',
   description:
-  'Task management\nReact.js, Redux, Node.js, AI, REST, AWS, Webpack, CI / CD, Selenium, AI, Scrum'
+  'Task management\nReact.js, Redux, Node.js, REST, AWS, Webpack, CI / CD, Selenium, AI, Scrum'
 },
 {
   period: 'From July 2017 to August 2018',
@@ -48,7 +48,7 @@ const experiences = [
   title: 'Kartographer / GIS Specialist / Product Integrator',
   company: 'Landesvermessung und\nGeobasisinformation Brandenburg,\nPotsdam',
   description:
-  'Geoinformation systems and product integration, JavaScript,\nCSS, HTML, GIS, Flash, Adobe Creative Suite'
+  'Geoinformation systems and product integration\nJavaScript, CSS, HTML, GIS, Flash, Adobe Creative Suite'
 }];
 
 export function WorkExperience() {
