@@ -72,9 +72,7 @@ function SkillRating({ level }: { level: number }) {
       {[1, 2, 3, 4, 5].map((dot) => (
         <div
           key={dot}
-          className={`w-1.5 h-1.5 rounded-full ${
-            dot <= level ? 'bg-gray-900' : 'bg-gray-300'
-          }`}
+          className={`w-1.5 h-1.5 rounded-full ${dot <= level ? 'bg-gray-900' : 'bg-gray-300'}`}
         />
       ))}
     </div>
@@ -87,23 +85,14 @@ export function Skills() {
       <h2 className="text-sm font-bold tracking-wider text-gray-900 mb-4">
         SKILLS
       </h2>
-
       <div className="grid grid-cols-2 gap-x-8 gap-y-6">
         {skillGroups.map((group, i) => (
           <div key={i}>
-            <h3 className="text-xs font-semibold text-gray-900 mb-3">
-              {group.title}
-            </h3>
-
+            <h3 className="text-xs font-semibold text-gray-900 mb-3">{group.title}</h3>
             <div className="space-y-2">
-              {group.skills.map((skill, index) => (
-                <div
-                  key={index}
-                  className="flex items-center justify-between gap-4"
-                >
-                  <span className="text-xs text-gray-700">
-                    {skill.name}
-                  </span>
+              {group.skills.map((skill, j) => (
+                <div key={j} className="flex items-center justify-between gap-4">
+                  <span className="text-xs text-gray-700">{skill.name}</span>
                   <SkillRating level={skill.level} />
                 </div>
               ))}

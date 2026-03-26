@@ -7,7 +7,9 @@ import {
   PlaneIcon,
   HeadphonesIcon,
   FilmIcon,
-  GamepadIcon } from
+  GamepadIcon,
+  LandmarkIcon,
+  BrainIcon } from
 'lucide-react';
 const interests = [
 {
@@ -41,6 +43,14 @@ const interests = [
 {
   icon: GamepadIcon,
   label: 'Games'
+},
+{
+  icon: LandmarkIcon,
+  label: 'Politics'
+},
+{
+  icon: BrainIcon,
+  label: 'Psychology'
 }];
 
 export function Interests() {

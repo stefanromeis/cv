@@ -1,4 +1,5 @@
 import React from 'react';
+
 export function PersonalStatement() {
   return (
     <section className="mb-8">
@@ -26,10 +27,10 @@ export function PersonalStatement() {
           applications.
         </p>
         <p>
-          Previously, as a Senior Frontend Engineer at workstreams.ai, I guided parts of the frontend
-          development process and focused on crafting engaging and user-friendly interfaces using
-          JavaScript, CSS, and React. With a steadfast commitment to both form and function, my designs
-          seamlessly blend aesthetics with user-centric functionality.
+          Previously, as a Senior Frontend Engineer at workstreams.ai, I led the frontend and overall
+          development process, drove architectural decisions, and focused on crafting engaging and
+          user-friendly interfaces using JavaScript, CSS, and React. With a steadfast commitment to
+          both form and function, my designs seamlessly blend aesthetics with user-centric functionality.
         </p>
         <p>
           Over the past years, I have also gained significant experience in leveraging AI agents
@@ -40,6 +41,6 @@ export function PersonalStatement() {
           forefront.
         </p>
       </div>
-    </section>);
-
+    </section>
+  );
 }
