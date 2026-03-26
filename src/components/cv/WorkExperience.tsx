@@ -45,10 +45,10 @@ const experiences = [
 },
 {
   period: 'From 2009 to 2020',
-  title: 'Freelancer',
+  title: 'Kartographer / GIS Specialist / Product Integrator',
   company: 'Landesvermessung und\nGeobasisinformation Brandenburg,\nPotsdam',
   description:
-  'Geoinformation systems and product integration\nJavaScript, CSS, HTML,\nGIS, Flash, Adobe Creative Suite'
+  'Geoinformation systems and product integration, JavaScript,\nCSS, HTML, GIS, Flash, Adobe Creative Suite'
 }];
 
 export function WorkExperience() {

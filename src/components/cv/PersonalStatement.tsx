@@ -7,7 +7,7 @@ export function PersonalStatement() {
       </h2>
       <div className="space-y-3 text-sm text-gray-700 leading-relaxed">
         <p>
-          I am a 38-year-old Frontend Engineer based in Potsdam, with a deep passion for Design,
+          I am a 38-year-old Senior Frontend Engineer based in Potsdam, with a deep passion for Design,
           Architecture, Web Development, AI Engineering, Animation, Layout, and Usability. I have a particular expertise in
           React.js and a strong dedication to efficiency and precision.
         </p>

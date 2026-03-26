@@ -29,16 +29,16 @@ const techSkills = [
   level: 5
 },
 {
-  name: 'CSS / SASS / Stylus',
+  name: 'CSS / SASS / Stylus / Tailwind',
   level: 5
 },
 {
   name: 'Node.js',
-  level: 4
+  level: 5
 },
 {
   name: 'SQL',
-  level: 3
+  level: 4
 },
 {
   name: 'Git',
@@ -54,7 +54,7 @@ const techSkills = [
 },
 {
   name: 'Selenium',
-  level: 3
+  level: 4
 },
 {
   name: 'AWS',
@@ -126,11 +126,10 @@ function SkillRating({ level }: {level: number;}) {
       <div
         key={dot}
         className={`w-1.5 h-1.5 rounded-full ${dot <= level ? 'bg-gray-900' : 'bg-gray-300'}`} />
-
       )}
     </div>);
-
 }
+
 export function Skills() {
   return (
     <section className="mb-8">

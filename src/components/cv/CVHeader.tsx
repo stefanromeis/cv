@@ -5,7 +5,11 @@ export function CVHeader() {
     <header className="flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-8 pb-8 border-b border-gray-200">
       {/* Photo and Name Section */}
       <div className="flex items-center gap-6">
-        <div className="w-24 h-24 md:w-28 md:h-28 rounded-full bg-gray-300 flex-shrink-0" />
+        <img
+          src="/me.jpg"
+          alt="Stefan Romeis"
+          className="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover flex-shrink-0"
+        />
         <div>
           <h1 className="text-2xl md:text-3xl font-bold tracking-wide text-gray-900">
             STEFAN ROMEIS
