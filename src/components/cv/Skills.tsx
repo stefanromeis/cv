@@ -1,35 +1,19 @@
 import React from 'react';
 const techSkills = [
 {
-  name: 'JavaScript',
+  name: 'JavaScript (ES6+)',
   level: 5
+},
+{
+  name: 'TypeScript',
+  level: 4
 },
 {
   name: 'React.js',
   level: 5
 },
 {
-  name: 'Redux',
-  level: 5
-},
-{
-  name: 'Hooks',
-  level: 5
-},
-{
-  name: 'TypeScript',
-  level: 5
-},
-{
   name: 'Next.js',
-  level: 4
-},
-{
-  name: 'HTML',
-  level: 5
-},
-{
-  name: 'CSS / SASS / Stylus / Tailwind',
   level: 5
 },
 {
@@ -37,27 +21,35 @@ const techSkills = [
   level: 5
 },
 {
-  name: 'SQL',
-  level: 4
+  name: 'CSS / SASS / Tailwind',
+  level: 5
+},
+{
+  name: 'HTML',
+  level: 5
+},
+{
+  name: 'Docker',
+  level: 5
+},
+{
+  name: 'REST APIs',
+  level: 5
 },
 {
   name: 'Git',
   level: 5
 },
 {
-  name: 'PWA',
+  name: 'SQL / NoSQL',
   level: 4
 },
 {
-  name: 'Webpack',
+  name: 'System architecture',
   level: 4
 },
 {
-  name: 'Selenium',
-  level: 4
-},
-{
-  name: 'AWS',
+  name: 'Microservices',
   level: 3
 }];
 
@@ -67,43 +59,35 @@ const knowledgeSkills = [
   level: 5
 },
 {
-  name: 'Typography',
-  level: 5
-},
-{
-  name: 'Color theory',
-  level: 5
-},
-{
   name: 'Interface Design',
   level: 5
 },
 {
-  name: 'Marketing and SEO',
-  level: 4
-},
-{
-  name: '2D / 3D Rendering',
-  level: 3
+  name: 'Typography',
+  level: 5
 },
 {
   name: 'Animation and Transition',
   level: 5
 },
 {
-  name: 'REST API',
+  name: 'Web authentication / OAuth',
   level: 5
 },
 {
-  name: 'Web authentication',
+  name: 'SSR / Edge rendering',
   level: 5
 },
 {
-  name: 'Automated testing',
+  name: 'AI / Code generation',
   level: 4
 },
 {
-  name: 'Database integration tasks',
+  name: 'Distributed systems',
+  level: 3
+},
+{
+  name: 'Web performance',
   level: 4
 },
 {
@@ -113,10 +97,6 @@ const knowledgeSkills = [
 {
   name: 'Project management',
   level: 4
-},
-{
-  name: 'GIT',
-  level: 5
 }];
 
 function SkillRating({ level }: {level: number;}) {
