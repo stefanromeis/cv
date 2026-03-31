@@ -2,12 +2,12 @@ import React from 'react';
 const education = [
 {
   period: 'From October 2014 to June 2017',
-  degree: 'Bachelor of Science',
+  degree: 'Media Informatics · Master of Science',
   institution: 'Beuth Hochschule für Technik, Berlin'
 },
 {
   period: 'From October 2011 to June 2014',
-  degree: 'Media Informatics · Bachelor',
+  degree: 'Media Informatics · Bachelor of Science',
   institution: 'Beuth Hochschule für Technik, Berlin'
 },
 {
