@@ -19,7 +19,7 @@ const education = [
   period: 'From 2006 to 2009',
   degree: 'Design, Programming, Cartography',
   institution:
-  'Ernst-Litfaß-Schule, Oberstufenzentrum Druck- und\nMedientechnik, Berlin'
+  'Ernst-Litfaß-Schule, Oberstufenzentrum Druck- und Medientechnik, Berlin'
 }];
 
 export function Education() {
@@ -36,7 +36,7 @@ export function Education() {
           {education.map((edu, index) =>
           <div key={index} className="relative pl-6">
               {/* Timeline dot */}
-              <div className="absolute left-0 top-1 w-2 h-2 rounded-full bg-gray-400 -translate-x-[3.5px]" />
+              <div className="absolute left-0 top-1 w-2 h-2 rounded-full bg-gray-400 -translate-x-[40%]" />
 
               <div className="text-xs">
                 <p className="text-gray-500 mb-1">{edu.period}</p>

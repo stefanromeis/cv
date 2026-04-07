@@ -31,7 +31,7 @@ export function WorkExperience() {
                 href={`#${exp.slug}`}
                 className="relative pl-6 block group cursor-pointer"
               >
-                <div className="absolute left-0 top-1 w-2 h-2 rounded-full bg-gray-400 -translate-x-[3.5px]" />
+                <div className="absolute left-0 top-1 w-2 h-2 rounded-full bg-gray-400 -translate-x-[40%]" />
 
                 <div className="text-xs">
                   <p className="text-gray-500 mb-1">{exp.period}</p>
@@ -48,7 +48,7 @@ export function WorkExperience() {
                       {tech.map((t, i) => (
                         <span
                           key={i}
-                          className="text-[9px] px-1.5 py-0.5 bg-gray-100 text-gray-600 rounded-full"
+                          className="text-[8px] px-1.5 py-0.5 bg-gray-100 text-gray-600 rounded-full"
                         >
                           {t}
                         </span>

@@ -33,8 +33,8 @@ export function Specialties() {
           const Icon = specialty.icon;
           return (
             <div key={index} className="flex flex-col items-center text-center">
-              <div className="w-20 h-20 rounded-full border-2 border-gray-300 flex items-center justify-center mb-3">
-                <Icon className="w-8 h-8 text-gray-700" />
+              <div className="w-16 h-16 rounded-full border-2 border-gray-300 flex items-center justify-center mb-3">
+                <Icon className="w-6 h-6 text-gray-700" />
               </div>
               <span className="text-xs text-gray-700 whitespace-pre-line leading-tight">
                 {specialty.label}
