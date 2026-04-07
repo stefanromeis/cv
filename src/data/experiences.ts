@@ -25,7 +25,7 @@ export const experiences: Experience[] = [
     period: 'Mar 2025 – Present · Remote',
     title: 'Frontend Architect / Senior Frontend Developer',
     company: 'Meplato GmbH, Berlin',
-    description: 'B2B eProcurement platform\nReact.js, TypeScript, Microservices, REST, CI/CD, Scrum',
+    description: 'B2B eProcurement platform\nReact.js, Next.js, TypeScript, Tailwind, Microservices, REST, CI/CD, Docker, Playwright, Sentry, PostHog, Shell Scripting, Authentication, Go, Zustand, pnpm, AI Engineering, Scrum',
     detail: {
       company: 'Meplato GmbH',
       roles: [
@@ -46,9 +46,8 @@ export const experiences: Experience[] = [
     slug: 'workstreams',
     period: 'From October 2018 to February 2025',
     title: 'Principal Frontend Engineer',
-    subtitle: 'Full Stack Engineer · 2018 to 2019',
     company: 'workstreams.ai GmbH, Berlin',
-    description: 'Task management\nReact.js, Redux, Node.js, REST, AWS, Webpack, CI / CD, Selenium, AI, Scrum',
+    description: 'Task management\nReact.js, Redux, Node.js, REST, WebSockets, Webhooks, AWS, Webpack, CI / CD, Selenium, AI, Scrum',
     detail: {
       company: 'workstreams.ai',
       duration: '6 years',
@@ -77,7 +76,7 @@ export const experiences: Experience[] = [
     period: 'From July 2017 to August 2018',
     title: 'Senior Frontend Developer',
     company: 'Paxlife Innovations GmbH, Potsdam',
-    description: 'In-flight entertainment, cloud sales platform and exhibition\nReact.js, Redux, Flow, SASS, GIT, Jira,\nNode.js, REST, Adobe Creative Suite',
+    description: 'In-flight entertainment, cloud sales platform and exhibition\nReact.js, Redux, Flow, SASS, Jira, Node.js, REST, Scrum',
     detail: {
       company: 'Paxlife Innovations GmbH',
       roles: [

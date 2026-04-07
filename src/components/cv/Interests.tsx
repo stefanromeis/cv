@@ -9,49 +9,55 @@ import {
   FilmIcon,
   GamepadIcon,
   LandmarkIcon,
-  BrainIcon } from
-'lucide-react';
+  BrainIcon,
+  BookOpenIcon
+} from
+  'lucide-react';
 const interests = [
-{
-  icon: CpuIcon,
-  label: 'Tech'
-},
-{
-  icon: PaletteIcon,
-  label: 'Design'
-},
-{
-  icon: HeartIcon,
-  label: 'Sport'
-},
-{
-  icon: DumbbellIcon,
-  label: 'Fitness'
-},
-{
-  icon: PlaneIcon,
-  label: 'Traveling'
-},
-{
-  icon: HeadphonesIcon,
-  label: 'Music'
-},
-{
-  icon: FilmIcon,
-  label: 'Film'
-},
-{
-  icon: GamepadIcon,
-  label: 'Games'
-},
-{
-  icon: LandmarkIcon,
-  label: 'Politics'
-},
-{
-  icon: BrainIcon,
-  label: 'Psychology'
-}];
+  {
+    icon: CpuIcon,
+    label: 'Tech'
+  },
+  {
+    icon: PaletteIcon,
+    label: 'Design'
+  },
+  {
+    icon: HeartIcon,
+    label: 'Sport'
+  },
+  {
+    icon: DumbbellIcon,
+    label: 'Fitness'
+  },
+  {
+    icon: PlaneIcon,
+    label: 'Traveling'
+  },
+  {
+    icon: HeadphonesIcon,
+    label: 'Music'
+  },
+  {
+    icon: FilmIcon,
+    label: 'Film'
+  },
+  {
+    icon: GamepadIcon,
+    label: 'Games'
+  },
+  {
+    icon: LandmarkIcon,
+    label: 'Politics'
+  },
+  {
+    icon: BrainIcon,
+    label: 'Psychology'
+  },
+  {
+    icon: BookOpenIcon,
+    label: 'Reading'
+  }];
 
 export function Interests() {
   return (
