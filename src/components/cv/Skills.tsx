@@ -28,6 +28,7 @@ const skillGroups: { title: string; skills: Skill[] }[] = [
       { name: 'Distributed Systems', level: 3 },
       { name: 'Web Authentication / OAuth', level: 5 },
       { name: 'SSR / Edge Rendering', level: 5 },
+      { name: 'Schema-driven Code Generation', level: 4 },
     ],
   },
   {
