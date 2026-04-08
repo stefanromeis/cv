@@ -1,9 +1,9 @@
 import React from 'react';
-import { CodeIcon, PenToolIcon, MonitorIcon, AtomIcon, SparklesIcon } from 'lucide-react';
+import { LayersIcon, PenToolIcon, MonitorIcon, AtomIcon, SparklesIcon } from 'lucide-react';
 const specialties = [
 {
-  icon: CodeIcon,
-  label: 'Code'
+  icon: LayersIcon,
+  label: 'Architecture'
 },
 {
   icon: MonitorIcon,

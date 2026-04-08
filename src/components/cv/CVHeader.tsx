@@ -15,7 +15,7 @@ export function CVHeader() {
             STEFAN ROMEIS
           </h1>
           <p className="text-sm md:text-base text-gray-500 mt-1">
-            Senior Frontend Engineer
+            Frontend Architect & Principal Engineer
           </p>
         </div>
       </div>

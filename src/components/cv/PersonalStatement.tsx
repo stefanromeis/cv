@@ -8,14 +8,16 @@ export function PersonalStatement() {
       </h2>
       <div className="space-y-3 text-xs text-gray-700 leading-relaxed">
         <p>
-          I am a 38-year-old Senior Frontend Engineer based in Potsdam, with a deep passion for Design,
-          Architecture, Web Development, AI Engineering, Animation, Layout, and Usability. I have a particular expertise in
-          React.js and a strong dedication to efficiency and precision.
+          Frontend Architect and Principal Engineer based in Potsdam, with a Master's degree in
+          Media Informatics and over 13 years of professional experience. My background spans
+          cartographic design, HCI, computer graphics, and software systems — an unusual combination
+          that shaped a deep appreciation for information hierarchy, spatial reasoning, and
+          design-driven engineering.
         </p>
         <p>
-          With over 13 years of professional experience, including nearly 2 years in design and
-          10 years specializing in web development, my primary focus has always been on frontend
-          technologies.
+          Specialising in React.js and the broader frontend ecosystem, my work spans UI architecture,
+          component systems, performance engineering, and AI-augmented development workflows — always
+          with usability and technical rigour at the core.
         </p>
         <p>
           At Meplato GmbH, I worked on the development and evolution of a B2B eProcurement platform,
