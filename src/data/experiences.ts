@@ -154,7 +154,7 @@ export const experiences: Experience[] = [
   },
   {
     slug: 'lgb',
-    period: 'From 2009 to 2020',
+    period: 'From 2009 to 2011',
     title: 'Kartographer / GIS Specialist / Product Integrator',
     company: 'Landesvermessung und Geobasisinformation Brandenburg, Potsdam',
     description: 'Geoinformation systems and product integration\nJavaScript, CSS, HTML, GIS, Flash, Adobe Creative Suite',
