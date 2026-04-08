@@ -10,7 +10,7 @@ const skillGroups: { title: string; skills: Skill[] }[] = [
     title: 'Full-Stack Development',
     skills: [
       { name: 'JavaScript (ES6+)', level: 5 },
-      { name: 'TypeScript', level: 4 },
+      { name: 'TypeScript', level: 5 },
       { name: 'React.js', level: 5 },
       { name: 'Next.js', level: 5 },
       { name: 'Node.js', level: 5 },
@@ -28,9 +28,9 @@ const skillGroups: { title: string; skills: Skill[] }[] = [
       { name: 'Web Authentication / OAuth', level: 5 },
       { name: 'SSR / Edge Rendering', level: 5 },
       { name: 'UI Library Development (Storybook)', level: 5 },
-      { name: 'Code Generation (Infrastructure / Dev Environment / Typing)', level: 5 },
+      { name: 'Monorepo (Turborepo / pnpm workspaces)', level: 5 },
+      { name: 'Tooling & Code Generation', level: 5 },
       { name: 'Analytics (Sentry / PostHog etc.)', level: 5 },
-      { name: 'Distributed Systems', level: 3 },
     ],
   },
   {
@@ -43,9 +43,10 @@ const skillGroups: { title: string; skills: Skill[] }[] = [
     ],
   },
   {
-    title: 'Performance & Advanced Topics',
+    title: 'Testing & Performance',
     skills: [
       { name: 'Web Performance', level: 5 },
+      { name: 'AI Engineering', level: 5 },
       { name: 'E2E Testing (Playwright / Selenium)', level: 5 },
       { name: 'A/B Testing', level: 5 },
     ],
@@ -68,7 +69,6 @@ const skillGroups: { title: string; skills: Skill[] }[] = [
       { name: 'Agile / Scrum', level: 5 },
       { name: 'Technical Leadership', level: 4 },
       { name: 'Kanban', level: 5 },
-      { name: 'Project Management', level: 4 },
       { name: 'Problem Framing & Solution Design', level: 5 },
     ],
   },
