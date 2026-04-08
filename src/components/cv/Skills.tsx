@@ -16,6 +16,7 @@ const skillGroups: { title: string; skills: Skill[] }[] = [
       { name: 'Node.js', level: 5 },
       { name: 'REST APIs', level: 5 },
       { name: 'WebSockets', level: 4 },
+      { name: 'Zustand', level: 4 },
       { name: 'SQL / NoSQL', level: 4 },
     ],
   },
@@ -23,7 +24,7 @@ const skillGroups: { title: string; skills: Skill[] }[] = [
     title: 'Architecture & Systems',
     skills: [
       { name: 'System Architecture', level: 4 },
-      { name: 'Microservices', level: 4 },
+      { name: 'Microservices', level: 5 },
       { name: 'Distributed Systems', level: 3 },
       { name: 'Web Authentication / OAuth', level: 5 },
       { name: 'SSR / Edge Rendering', level: 5 },
@@ -33,16 +34,18 @@ const skillGroups: { title: string; skills: Skill[] }[] = [
     title: 'Infrastructure & DevOps',
     skills: [
       { name: 'Docker', level: 5 },
-      { name: 'AWS', level: 3 },
-      { name: 'CI / CD', level: 4 },
+      { name: 'AWS', level: 4 },
+      { name: 'CI / CD', level: 5 },
       { name: 'Git (Advanced Workflows)', level: 5 },
     ],
   },
   {
     title: 'Performance & Advanced Topics',
     skills: [
-      { name: 'Web Performance', level: 4 },
-      { name: 'AI / Code Generation', level: 4 },
+      { name: 'Web Performance', level: 5 },
+      { name: 'AI / Code Generation', level: 5 },
+      { name: 'E2E Testing', level: 5 },
+      { name: 'A/B Testing', level: 5 },
     ],
   },
   {
@@ -54,12 +57,15 @@ const skillGroups: { title: string; skills: Skill[] }[] = [
       { name: 'Interface Design', level: 5 },
       { name: 'Typography', level: 5 },
       { name: 'Animation & Transitions', level: 5 },
+      { name: '3D Rendering', level: 4 },
     ],
   },
   {
     title: 'Product & Collaboration',
     skills: [
       { name: 'Agile / Scrum', level: 5 },
+      { name: 'Kanban', level: 5 },
+      { name: 'Analytics (PostHog / Sentry etc.)', level: 5 },
       { name: 'Project Management', level: 4 },
       { name: 'Problem Framing & Solution Design', level: 5 },
     ],

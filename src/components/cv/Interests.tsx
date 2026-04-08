@@ -65,7 +65,7 @@ export function Interests() {
       <h2 className="text-sm font-bold tracking-wider text-gray-900 mb-6">
         INTERESTS
       </h2>
-      <div className="flex gap-6">
+      <div className="flex justify-between">
         {interests.map((interest, index) => {
           const Icon = interest.icon;
           return (

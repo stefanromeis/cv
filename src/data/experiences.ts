@@ -136,7 +136,7 @@ export const experiences: Experience[] = [
     slug: 'fraunhofer',
     period: 'From April 2014 to July 2014',
     title: 'Frontend Engineer',
-    company: 'Fraunhofer-Institut für\nNachrichtentechnik, Berlin',
+    company: 'Fraunhofer-Institut für Nachrichtentechnik, Berlin',
     description: 'Touchless interaction research\nJavaScript, CSS, 3D.js, Kinect, HTML,\nWebsockets, Adobe Creative Suite',
     detail: {
       company: 'Fraunhofer Heinrich Hertz Institute, HHI',

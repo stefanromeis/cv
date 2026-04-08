@@ -48,7 +48,7 @@ export function WorkExperience() {
                       {tech.map((t, i) => (
                         <span
                           key={i}
-                          className="text-[8px] px-1.5 py-0.5 bg-gray-100 text-gray-600 rounded-full"
+                          className="text-[8px] md:text-[7px] px-1.5 md:px-1 py-0.5 bg-gray-100 text-gray-600 rounded-full"
                         >
                           {t}
                         </span>
