@@ -46,6 +46,7 @@ const skillGroups: { title: string; skills: Skill[] }[] = [
     title: 'Testing & Performance',
     skills: [
       { name: 'Web Performance', level: 5 },
+      { name: 'Web Workers', level: 4 },
       { name: 'AI Engineering', level: 5 },
       { name: 'E2E Testing (Playwright / Selenium)', level: 5 },
       { name: 'A/B Testing', level: 5 },
