@@ -16,7 +16,7 @@ const skillGroups: { title: string; skills: Skill[] }[] = [
       { name: 'Node.js', level: 5 },
       { name: 'REST APIs', level: 5 },
       { name: 'WebSockets', level: 4 },
-      { name: 'Zustand', level: 4 },
+      { name: 'State Management (Redux / Zustand)', level: 5 },
       { name: 'SQL / NoSQL', level: 4 },
     ],
   },
@@ -25,10 +25,12 @@ const skillGroups: { title: string; skills: Skill[] }[] = [
     skills: [
       { name: 'System Architecture', level: 4 },
       { name: 'Microservices', level: 5 },
-      { name: 'Distributed Systems', level: 3 },
       { name: 'Web Authentication / OAuth', level: 5 },
       { name: 'SSR / Edge Rendering', level: 5 },
-      { name: 'Schema-driven Code Generation', level: 4 },
+      { name: 'UI Library Development (Storybook)', level: 5 },
+      { name: 'Code Generation (Infrastructure / Dev Environment / Typing)', level: 5 },
+      { name: 'Analytics (Sentry / PostHog etc.)', level: 5 },
+      { name: 'Distributed Systems', level: 3 },
     ],
   },
   {
@@ -44,8 +46,7 @@ const skillGroups: { title: string; skills: Skill[] }[] = [
     title: 'Performance & Advanced Topics',
     skills: [
       { name: 'Web Performance', level: 5 },
-      { name: 'AI / Code Generation', level: 5 },
-      { name: 'E2E Testing', level: 5 },
+      { name: 'E2E Testing (Playwright / Selenium)', level: 5 },
       { name: 'A/B Testing', level: 5 },
     ],
   },
@@ -65,8 +66,8 @@ const skillGroups: { title: string; skills: Skill[] }[] = [
     title: 'Product & Collaboration',
     skills: [
       { name: 'Agile / Scrum', level: 5 },
+      { name: 'Technical Leadership', level: 4 },
       { name: 'Kanban', level: 5 },
-      { name: 'Analytics (PostHog / Sentry etc.)', level: 5 },
       { name: 'Project Management', level: 4 },
       { name: 'Problem Framing & Solution Design', level: 5 },
     ],
