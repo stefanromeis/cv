@@ -16,8 +16,9 @@ export function PersonalStatement() {
         </p>
         <p>
           Specialising in React.js and the broader frontend ecosystem, my work spans UI architecture,
-          component systems, performance engineering, and AI-augmented development workflows — always
-          with usability and technical rigour at the core.
+          component systems, performance engineering, and AI-augmented development workflows. Known
+          for bridging design, product, and engineering — translating complex technical decisions
+          into clear directions teams can align and build on.
         </p>
         <p>
           At Meplato GmbH, I worked on the development and evolution of a B2B eProcurement platform,

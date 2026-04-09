@@ -69,6 +69,7 @@ const skillGroups: { title: string; skills: Skill[] }[] = [
     skills: [
       { name: 'Agile / Scrum', level: 5 },
       { name: 'Technical Leadership', level: 4 },
+      { name: 'Mentoring & Knowledge Sharing', level: 5 },
       { name: 'Kanban', level: 5 },
       { name: 'Problem Framing & Solution Design', level: 5 },
     ],
