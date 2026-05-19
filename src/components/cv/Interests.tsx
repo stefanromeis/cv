@@ -41,23 +41,8 @@ const interests = [
   {
     icon: FilmIcon,
     label: 'Film'
-  },
-  {
-    icon: GamepadIcon,
-    label: 'Games'
-  },
-  {
-    icon: LandmarkIcon,
-    label: 'Politics'
-  },
-  {
-    icon: BrainIcon,
-    label: 'Psychology'
-  },
-  {
-    icon: BookOpenIcon,
-    label: 'Reading'
-  }];
+  }
+];
 
 export function Interests() {
   return (
@@ -74,10 +59,10 @@ export function Interests() {
                 <Icon className="w-6 h-6 text-gray-700" />
               </div>
               <span className="text-xs text-gray-700">{interest.label}</span>
-            </div>);
-
+            </div>
+          );
         })}
       </div>
-    </section>);
-
+    </section>
+  );
 }

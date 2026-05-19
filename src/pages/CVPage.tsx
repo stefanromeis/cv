@@ -1,6 +1,7 @@
 import React from 'react';
 import { CVHeader } from '../components/cv/CVHeader';
 import { PersonalStatement } from '../components/cv/PersonalStatement';
+import { Publications } from '../components/cv/Publications';
 import { Specialties } from '../components/cv/Specialties';
 import { Skills } from '../components/cv/Skills';
 import { WorkExperience } from '../components/cv/WorkExperience';
@@ -18,16 +19,17 @@ export function CVPage() {
             <PersonalStatement />
             <Specialties />
             <Skills />
+            <Interests />
           </div>
 
           {/* Right Column */}
           <div>
             <WorkExperience />
             <Education />
+            <Publications />
           </div>
         </div>
 
-        <Interests />
       </div>
     </main>);
 

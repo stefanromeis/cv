@@ -5,17 +5,28 @@ export function CVHeader() {
     <header className="flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-8 pb-8 border-b border-gray-200">
       {/* Photo and Name Section */}
       <div className="flex items-center gap-6">
-        <img
-          src="/me.jpg"
-          alt="Stefan Romeis"
-          className="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover flex-shrink-0"
-        />
+        <button
+          onClick={() => (window.location.hash = 'cover-letter')}
+          className="focus:outline-none group"
+          aria-label="Open Cover Letter"
+        >
+          <img
+            src="/me.jpg"
+            alt="Stefan Romeis"
+            className="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover flex-shrink-0 group-hover:opacity-80 transition"
+          />
+        </button>
         <div>
-          <h1 className="text-2xl md:text-3xl font-bold tracking-wide text-gray-900">
+          <button
+            onClick={() => (window.location.hash = 'cover-letter')}
+            className="text-2xl md:text-3xl font-bold tracking-wide text-gray-900 bg-transparent border-none p-0 m-0 cursor-pointer hover:underline focus:outline-none"
+            style={{ display: 'block', textAlign: 'left' }}
+            aria-label="Open Cover Letter"
+          >
             STEFAN ROMEIS
-          </h1>
+          </button>
           <p className="text-sm md:text-base text-gray-500 mt-1">
-            Frontend Architect & Principal Engineer
+            Senior Frontend Architect / Engineer
           </p>
         </div>
       </div>

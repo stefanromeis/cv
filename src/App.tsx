@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { CVPage } from './pages/CVPage';
 import { ExperienceDetailPage } from './pages/ExperienceDetailPage';
 import { experiences } from './data/experiences';
+import CoverLetterPage from './pages/CoverLetterPage';
 
 export function App() {
   const [hash, setHash] = useState(window.location.hash.slice(1));
@@ -16,6 +17,10 @@ export function App() {
 
   if (selected) {
     return <ExperienceDetailPage experience={selected} />;
+  }
+
+  if (hash === 'cover-letter') {
+    return <CoverLetterPage />;
   }
 
   return <CVPage />;
