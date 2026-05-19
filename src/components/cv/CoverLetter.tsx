@@ -46,7 +46,7 @@ const CoverLetter: React.FC = () => (
     <p className="mb-4">
       On the stack: React, TypeScript, GraphQL, and component-driven development with Storybook are
       all part of my regular work. I've set up and maintained Jest and Cypress pipelines, worked
-      through Webpack builds, and have direct experience with SonarCloud and CI/CD on CircleCI-style
+      through Webpack builds, and have direct experience with CI/CD on CircleCI-style
       setups. The gradual Webpack-to-Vite migration you mentioned is something I've navigated before
       and have a clear opinion on how to approach without disrupting the team.
     </p>
