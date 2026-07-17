@@ -24,10 +24,12 @@ const skillGroups: { title: string; skills: Skill[] }[] = [
     title: 'Architecture & Systems',
     skills: [
       { name: 'System Architecture', level: 4 },
+      { name: 'AI Engineering', level: 5 },
       { name: 'Microservices', level: 5 },
+      { name: 'API & Contract Design', level: 4 },
       { name: 'Web Authentication / OAuth', level: 5 },
       { name: 'SSR / Edge Rendering', level: 5 },
-      { name: 'UI Library Development (Storybook)', level: 5 },
+      { name: 'Design Systems & UI Libraries (Storybook)', level: 5 },
       { name: 'Monorepo (Turborepo / pnpm workspaces)', level: 5 },
       { name: 'Tooling & Code Generation', level: 5 },
       { name: 'Analytics (Sentry / PostHog etc.)', level: 5 },
@@ -47,7 +49,6 @@ const skillGroups: { title: string; skills: Skill[] }[] = [
     skills: [
       { name: 'Web Performance', level: 5 },
       { name: 'Web Workers', level: 4 },
-      { name: 'AI Engineering', level: 5 },
       { name: 'E2E Testing (Playwright / Selenium)', level: 5 },
       { name: 'A/B Testing', level: 5 },
     ],
@@ -61,7 +62,6 @@ const skillGroups: { title: string; skills: Skill[] }[] = [
       { name: 'Interface Design', level: 5 },
       { name: 'Typography', level: 5 },
       { name: 'Animation & Transitions', level: 5 },
-      { name: '3D Rendering', level: 4 },
     ],
   },
   {

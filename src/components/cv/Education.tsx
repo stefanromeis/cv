@@ -17,7 +17,7 @@ const education = [
 },
 {
   period: 'From 2006 to 2009',
-  degree: 'Design, Programming, Cartography',
+  degree: 'Design & Media Technology',
   institution:
   'Ernst-Litfaß-Schule, Oberstufenzentrum Druck- und Medientechnik, Berlin'
 }];

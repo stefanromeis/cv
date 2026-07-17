@@ -53,7 +53,7 @@ export const experiences: Experience[] = [
       duration: '6 years',
       roles: [
         {
-          title: 'Senior Frontend Engineer / Dev Lead',
+          title: 'Principal Frontend Engineer / Dev Lead',
           period: 'January 2024 – September 2024',
           location: 'Berlin, Germany',
           paragraphs: [
@@ -147,26 +147,6 @@ export const experiences: Experience[] = [
           location: 'Berlin, Germany',
           paragraphs: [
             'At the HHI, my main tasks where based on researching innovative possibilities for touchless interactions. My primary objective was to explore the boundaries of touchless interaction within web-based environments. I developed various interactive games and a virtual school route trainer that combined Google Street View with Microsoft Kinect technology.',
-          ],
-        },
-      ],
-    },
-  },
-  {
-    slug: 'lgb',
-    period: 'From 2009 to 2011',
-    title: 'Kartographer / GIS Specialist / Product Integrator',
-    company: 'Landesvermessung und Geobasisinformation Brandenburg, Potsdam',
-    description: 'Geoinformation systems and product integration\nJavaScript, CSS, HTML, GIS, Flash, Adobe Creative Suite',
-    detail: {
-      company: 'Landesvermessung und Geobasisinformation Brandenburg (LGB)',
-      roles: [
-        {
-          title: 'Cartographer',
-          period: 'July 2009 – June 2010',
-          location: 'Potsdam, Germany',
-          paragraphs: [
-            'I worked as a Cartographer at LGB, integrating ArcGis into a production-ready state for a flexible geoinformation system. My responsibilities included developing and maintaining geospatial data products for mapping and analysis. I collaborated with the developers to translate the software requirements into working solutions.',
           ],
         },
       ],

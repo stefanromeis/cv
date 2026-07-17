@@ -9,39 +9,24 @@ export function PersonalStatement() {
       <div className="space-y-3 text-xs text-gray-700 leading-relaxed">
         <p>
           Frontend Architect and Principal Engineer based in Potsdam, with a Master's degree in
-          Media Informatics and over 13 years of professional experience. My background spans
-          cartographic design, HCI, computer graphics, and software systems — an unusual combination
-          that shaped a deep appreciation for information hierarchy, spatial reasoning, and
-          design-driven engineering.
+          Media Informatics and over 13 years of professional experience specialising in React.js,
+          TypeScript, and the broader frontend ecosystem. My work centres on UI architecture,
+          scalable component systems, performance engineering, and AI-augmented development
+          workflows within microservice-based platforms.
         </p>
         <p>
-          Specialising in React.js and the broader frontend ecosystem, my work spans UI architecture,
-          component systems, performance engineering, and AI-augmented development workflows. Known
-          for bridging design, product, and engineering — translating complex technical decisions
-          into clear directions teams can align and build on.
+          Known for bridging design, product, and engineering — I don't implement designs
+          literally, but interpret their intent and translate it into component architecture that
+          stays reusable and maintainable as the product grows. A background in visual design and
+          cartography shaped that editorial judgment: deciding what matters, what gets simplified,
+          and what gets emphasized — in maps then, in interfaces and system boundaries now.
         </p>
         <p>
-          At Meplato GmbH, I worked on the development and evolution of a B2B eProcurement platform,
-          helping organizations digitize and streamline complex procurement processes. My primary focus
-          was on shaping and enhancing the frontend architecture within a microservice-based platform,
-          developing web interfaces for multiple modules, and integrating them via APIs. A major part
-          of this work involved building and maintaining a shared UI library with reusable components
-          and design patterns, ensuring a consistent, scalable, and intuitive user experience across
-          applications.
-        </p>
-        <p>
-          Previously, as a Senior Frontend Engineer at workstreams.ai, I led the frontend and overall
-          development process, drove architectural decisions, and focused on crafting engaging and
-          user-friendly interfaces using JavaScript, CSS, and React. With a steadfast commitment to
-          both form and function, my designs seamlessly blend aesthetics with user-centric functionality.
-        </p>
-        <p>
-          Over the past years, I have also gained significant experience in leveraging AI agents
-          efficiently to optimize development workflows, automate repetitive tasks, and support
-          data-driven decision-making in frontend projects. Across all these roles, my work combines
-          technical precision, architecture-focused thinking, and design-driven principles to deliver
-          robust, maintainable, and high-performance web applications with user experience at the
-          forefront.
+          In recent roles I have shaped frontend architecture for B2B SaaS platforms, built and
+          maintained shared UI libraries and design systems used across multiple applications, led
+          small development teams, and integrated AI agents into everyday engineering workflows to
+          speed up delivery and support data-driven decisions — always with robustness,
+          maintainability, and user experience at the forefront.
         </p>
       </div>
     </section>
