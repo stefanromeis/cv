@@ -24,8 +24,9 @@ export function PersonalStatement() {
         <p>
           In recent roles I have shaped frontend architecture for B2B SaaS platforms, built and
           maintained shared UI libraries and design systems used across multiple applications, led
-          small development teams, and integrated AI agents into everyday engineering workflows to
-          speed up delivery and support data-driven decisions — always with robustness,
+          small development teams, and worked with AI on both sides: shipping AI-driven product
+          features in a SaaS task management platform, and integrating AI agents into everyday
+          engineering workflows to speed up delivery and support data-driven decisions — always with robustness,
           maintainability, and user experience at the forefront.
         </p>
       </div>
