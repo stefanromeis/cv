@@ -47,7 +47,7 @@ export const experiences: Experience[] = [
     period: 'From October 2018 to February 2025',
     title: 'Principal Frontend Engineer',
     company: 'workstreams.ai GmbH, Berlin',
-    description: 'AI-driven task management\nReact.js, Redux, Node.js, REST, WebSockets, Webhooks, AWS, Webpack, CI / CD, Selenium, AI Integration, Scrum',
+    description: 'AI-driven task management with Slack & MS Teams integration\nReact.js, Redux, Node.js, REST, WebSockets, Webhooks, AWS, Webpack, CI / CD, Selenium, AI Integration, Scrum',
     detail: {
       company: 'workstreams.ai',
       duration: '6 years',
@@ -57,7 +57,7 @@ export const experiences: Experience[] = [
           period: 'January 2024 – September 2024',
           location: 'Berlin, Germany',
           paragraphs: [
-            'In the last months I led a small team of 5 developers in crafting new features and supporting colleagues in the development of a frontend SaaS task management product at workstreams.ai. A key focus of this period was designing and shipping AI-driven product features — integrating LLM-based capabilities into the task management workflow, from the frontend architecture for AI interactions to prompt-driven UX patterns. Additionally I collaborated with stakeholders and designers, and conducted code testing to ensure high-quality deliverables, managing the development process for timely, high-quality output.',
+            'In the last months I led a small team of 5 developers in crafting new features and supporting colleagues in the development of a frontend SaaS task management product at workstreams.ai. A key focus of this period was designing and shipping AI-driven product features — an AI task description generator, an action-items generator that turns descriptions into assignable subtasks, and reusable prompt shortcuts — covering the frontend architecture for LLM interactions and prompt-driven UX patterns. Additionally I collaborated with stakeholders and designers, and conducted code testing to ensure high-quality deliverables, managing the development process for timely, high-quality output.',
           ],
         },
         {
