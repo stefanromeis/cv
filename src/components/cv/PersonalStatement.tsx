@@ -8,7 +8,7 @@ export function PersonalStatement() {
       </h2>
       <div className="space-y-3 text-xs text-gray-700 leading-relaxed">
         <p>
-          Full-Stack Architect and Principal Engineer based in Potsdam, with a Master's degree in
+          Full-Stack Developer and Frontend Architect based in Potsdam, with a Master's degree in
           Media Informatics and over 13 years of professional experience across React.js,
           TypeScript, Node.js, and the APIs and services that connect them. My work centres on
           end-to-end architecture — from UI systems and component design down to REST APIs,
