@@ -20,7 +20,7 @@ export function PersonalStatement() {
           specs literally, but interpret their intent and translate it into architecture that
           stays reusable and maintainable across the stack. A background in visual design and
           cartography shaped that editorial judgment: deciding what matters, what gets simplified,
-          and what gets emphasized — in maps then, in interfaces and system boundaries now.
+          and what gets emphasized.
         </p>
         <p>
           In recent roles I have shaped both frontend and backend architecture for B2B SaaS
