@@ -26,7 +26,7 @@ export function CVHeader() {
             STEFAN ROMEIS
           </button>
           <p className="text-sm md:text-base text-gray-500 mt-1">
-            Frontend Architect · Bridging Design &amp; Engineering
+            Full-Stack Architect · React &amp; Node.js
           </p>
         </div>
       </div>

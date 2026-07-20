@@ -45,27 +45,27 @@ export const experiences: Experience[] = [
   {
     slug: 'workstreams',
     period: 'From October 2018 to February 2025',
-    title: 'Principal Frontend Engineer',
+    title: 'Principal Full-Stack Engineer',
     company: 'workstreams.ai GmbH, Berlin',
-    description: 'AI-driven task management with Slack & MS Teams integration\nReact.js, Redux, Node.js, REST, WebSockets, Webhooks, AWS, Webpack, CI / CD, Selenium, AI Integration, Scrum',
+    description: 'Full-stack AI-driven task management with Slack & MS Teams integration\nReact.js, Redux, Node.js, REST APIs, WebSockets, Webhooks, AWS, Webpack, CI / CD, Selenium, AI Integration, Scrum',
     detail: {
       company: 'workstreams.ai',
       duration: '6 years',
       roles: [
         {
-          title: 'Principal Frontend Engineer / Dev Lead',
+          title: 'Principal Full-Stack Engineer / Dev Lead',
           period: 'January 2024 – September 2024',
           location: 'Berlin, Germany',
           paragraphs: [
-            'In the last months I led a small team of 5 developers in crafting new features and supporting colleagues in the development of a frontend SaaS task management product at workstreams.ai. A key focus of this period was designing and shipping AI-driven product features — an AI task description generator, an action-items generator that turns descriptions into assignable subtasks, and reusable prompt shortcuts — covering the frontend architecture for LLM interactions and prompt-driven UX patterns. Additionally I collaborated with stakeholders and designers, and conducted code testing to ensure high-quality deliverables, managing the development process for timely, high-quality output.',
+            'In the last months I led a small team of 5 developers in crafting new features and supporting colleagues in the development of a full-stack SaaS task management product at workstreams.ai, working across the React.js frontend and the Node.js REST API and WebSocket backend that powers it. A key focus of this period was designing and shipping AI-driven product features — an AI task description generator, an action-items generator that turns descriptions into assignable subtasks, and reusable prompt shortcuts — covering both the LLM-facing API layer and the frontend architecture for AI interactions and prompt-driven UX patterns. Additionally I collaborated with stakeholders and designers, and conducted code testing to ensure high-quality deliverables, managing the development process for timely, high-quality output.',
           ],
         },
         {
-          title: 'Senior Frontend Engineer',
+          title: 'Senior Full-Stack Engineer',
           period: 'October 2018 – January 2024',
           location: 'Berlin, Germany',
           paragraphs: [
-            "As a Senior Frontend Engineer at workstreams.ai GmbH in Berlin, I spearheaded architectural decisions, integrated new features, and aligned with stakeholders to drive future development. By supporting fellow developers and delivering high-quality, well-tested code, I contributed to the company's success in developing innovative solutions and meeting project deadlines.",
+            "As a Senior Full-Stack Engineer at workstreams.ai GmbH in Berlin, I spearheaded architectural decisions across the React.js frontend and Node.js backend, integrated new features end-to-end — from REST APIs and WebSocket-based real-time updates to the UI consuming them — and aligned with stakeholders to drive future development. By supporting fellow developers and delivering high-quality, well-tested code, I contributed to the company's success in developing innovative solutions and meeting project deadlines.",
           ],
         },
       ],
